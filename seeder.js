@@ -12,7 +12,7 @@ const person = {
 };
 
 mocker()
-    .schema('person', person, 1000)
+    .schema('person', person, 5000000)
     .build((err, data) => {
         if (err) {
             console.log(err);
